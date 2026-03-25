@@ -10,6 +10,8 @@ namespace LL.MDE.Components.Qvt.Common.DataModels
 
         List<ParameterDescriptor> Parameters { get; set; }
 
+        ITransformationConfiguration Configuration { get; set; }
+
         ITransformationStarter TransformationStarter { get; set; }
     }
 }

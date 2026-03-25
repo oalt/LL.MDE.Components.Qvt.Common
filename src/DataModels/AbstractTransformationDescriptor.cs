@@ -9,7 +9,10 @@ namespace LL.MDE.Components.Qvt.Common.DataModels
         public string TopRelationName { get; set; } = "<Unnamed top relation>";
         
         public List<ParameterDescriptor> Parameters { get; set; } = new List<ParameterDescriptor>();
-        
+
+        public ITransformationConfiguration Configuration { get; set; }
+
         public ITransformationStarter TransformationStarter { get; set; }
+        
     }
 }
