@@ -4,6 +4,8 @@ namespace LL.MDE.Components.Qvt.Common.DataModels
 {
     public class ParameterDescriptor
     {
+        public string GUID { get; set; }
+
         public string Name {  get; set; }
 
         public string ParameterType 
