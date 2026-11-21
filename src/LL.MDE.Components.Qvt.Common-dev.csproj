@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>$(MSBuildProjectName.Replace("-dev", ""))</RootNamespace>
+        <AssemblyName>$(MSBuildProjectName.Replace("-dev", ""))</AssemblyName>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+</Project>
